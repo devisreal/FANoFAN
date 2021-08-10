@@ -8,37 +8,41 @@ p{
   font-weight: 600;
 }
 .return-link a{
-            font-family: 'Quicksand', sans-serif;
-            font-weight: 600;
-            color: black;
-            text-decoration: underline;
-            text-underline-offset: 3px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 600;
+  color: black;
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
 .query-form .container {
-            background-color: #fafafa;
+  background-color: #fafafa;
 }
 @media screen and (max-width: 575px) {
-            .query-form .container {
-                        width: 90%;
-                        margin: 50px auto !important;
-                        padding: 4%;
-            }           
+  .query-form .container {
+    width: 90%;
+    margin: 50px auto !important;
+    padding: 4%;
+  }           
+}
+form input, textarea{
+  font-family: 'Quicksand', sans-serif !important;
+  font-weight: 600 !important;
 }
 form label{
-            font-family: 'Poppins', sans-serif;
-            font-size: 14px;
-            font-weight: 500;
-            line-height: 16.8px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.8px;
 }
 .active input:focus:not([readonly]) {
-            border: 1px solid #667490;
-            box-shadow: 0 0 0 1px #667490;
+  border: 1px solid #667490;
+  box-shadow: 0 0 0 1px #667490;
 }
 .active textarea[type=text]:focus([readonly]){
-            border: 1px solid #667490;
-            box-shadow: 0 0 0 1px #667490;
+  border: 1px solid #667490;
+  box-shadow: 0 0 0 1px #667490;
 }
 .textarea-border-focus .form-control:focus {
-    border: 1px solid #667490;
-    box-shadow: 0 0 0 1px #667490;
+  border: 1px solid #667490;
+  box-shadow: 0 0 0 1px #667490;
 }
