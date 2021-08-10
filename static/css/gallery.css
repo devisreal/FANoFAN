@@ -1,0 +1,292 @@
+/* =============================NAVBAR ====================== NAVBAR =============================NAVBAR================================*/
+body{
+  overflow-x: hidden;
+}
+    .navbar {
+      background-color: transparent;
+    }
+    .scrolling-navbar {
+      transition: background .5s ease-in-out, padding .5s ease-in-out;
+    }
+    .top-nav-collapse {
+      /* background-color: #444; */
+      background-color: #667490;
+    }
+    
+    @media only screen and (max-width: 768px) {
+      .navbar {
+        background-color: #667490;
+      }
+    }
+    .navbar-brand{
+      font-family: 'Baumans', cursive;
+      font-size: 25px !important;
+    }
+    .navbar-brand span{
+      color: black;
+    }
+
+/* =============================NAVBAR ====================== NAVBAR =============================NAVBAR================================*/
+
+/* =============================GENERAL-STYLING ====================== GENERAL-STYLING =============================GENERAL-STYLING================================*/
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Baumans', cursive;
+  
+}
+p{
+  font-family: 'Quicksand', sans-serif;
+  color: black !important;
+  font-weight: 600;
+}
+
+.nav-link{
+  color: white !important;
+  text-transform: uppercase;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  border-radius: 10px !important;
+  font-size: 15px;
+}
+.gallery-link{
+  color: black !important;
+  /* border: 2px solid black; */
+}
+.dropdown-item{
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold !important;
+  color: white !important;
+}
+.dropdown-item:hover{
+  color: black !important;
+}
+@media screen and (max-width: 991px) {
+  .nav-item{
+    width: 40% !important;
+  }
+}
+@media screen and (max-width: 575px) {
+  .nav-item{
+    margin: 5px auto !important;
+    width: 85% !important;
+  }
+  .navbar-collapse{
+    margin-top: 20px;
+  }
+}
+html,body, * {
+  scroll-behavior: smooth !important;
+}
+/* =============================GENERAL-STYLING ====================== GENERAL-STYLING =============================GENERAL-STYLING================================*/
+
+header{
+  background-image: url(../img/background-image/fan1.jpg);
+  /* filter: brightness(0.8); */
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+header h1{
+  color: white !important;
+}
+header p, p a{
+  color: white !important;
+  transition: ease .2s;
+}
+header p a:hover{
+  text-decoration: underline;
+  transition: ease .2s;
+  text-underline-offset: 3px;
+}
+#special-offer-btn{
+  border: none;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  background-color: red;
+  color: white;
+}
+#special-offer-btn:hover i{
+  transform: rotate(360deg);
+  transition: ease .3s;
+}
+
+/* PILL==================================================PILL========================================================PILL */
+#pills-tabContent{
+  height: 900px !important;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+#pills-tabContent::-webkit-scrollbar {
+  width: 7px;
+  background-color: #667490;
+  
+}
+#pills-tabContent::-webkit-scrollbar-track {
+  background: #f1f1f1 !important; 
+}
+ 
+/* Handle */
+#pills-tabContent::-webkit-scrollbar-thumb {
+  background: #888 !important; 
+  border-radius: 20px;
+  
+}
+
+/* Handle on hover */
+#pills-tabContent::-webkit-scrollbar-thumb:hover {
+  background: #555 !important; 
+}
+.tab-pane{
+  padding: 30px;
+  
+}
+
+.tab-content{
+  background-color: #FAFAFA;
+}
+.nav-pills .nav-item .nav-link{
+  width: fit-content !important;
+  padding: 15px 20px !important; 
+  margin: 0px auto !important;
+}
+.box{
+  width: 300px;
+  height: 100px;
+  background-color: #fafafa;
+  margin: 36% 12% !important;
+  position: absolute;
+  border: 1px solid #3333;
+  margin-top: -50px;
+  border-radius: 3px;
+}
+.box p{
+  color: black !important;
+}
+.price{
+  font-family: 'Poppins', sans-serif;
+  padding: 10px 0px;
+  font-size: 14px;
+  line-height: 16.8px;
+  font-weight: 500;;
+}
+.ceiling-fans{
+  margin: 45px 0px !important;
+  background-color: #fafafa;
+  border: 1px solid #667490;
+}
+#box-fault{
+  margin-top: 150px !important;
+}
+@media screen and (max-width: 767px) {
+  .box{
+  width: 250px;
+  height: 100px;
+  background-color: #fafafa;
+  margin: 36% 10% !important;
+  position: absolute;
+  border: 1px solid #3333;
+  margin-top: -50px;
+  border-radius: 3px;
+}
+.box p{
+  color: black !important;
+}
+.ceiling-fans{
+  margin: 50px 0px !important;
+  background-color: #fafafa;
+}
+
+}
+@media screen and (max-width: 520px) {
+  .box{
+    width: 60%;
+    height: 100px;    
+  }
+}
+@media screen and (max-width: 560px){
+  #box-fault{
+    margin-top: 120px !important;
+
+  }
+}
+@media screen and (max-width: 500px){
+  #box-fault{
+    margin-top: 100px !important;
+    margin: 100px 0px 0px 8% !important;
+  }
+  .price{
+  font-family: 'Poppins', sans-serif;
+  padding: 0px 0px;
+  font-size: 12px;
+  line-height: 16.8px;
+  font-weight: 500;;
+}
+}
+@media screen and (max-width: 460px){
+  .box{
+    display: none !important;
+  }
+  .ceiling-fans{
+  margin: 30px 0px !important;
+}
+}
+@media screen and (max-width: 575px) {
+  .standing, .table{
+    width: 95% !important;
+    margin: 10% 0px;
+  }
+  .standing-fans, .table-fans{
+    width: 90% !important;
+    margin: 0px auto ;
+  }
+  .tab-pane{
+  padding: 10px;
+}
+}
+.standing .card-body, .table .card-body{
+  text-align: center;
+}
+/* PILL==================================================PILL========================================================PILL */
+
+/* SPECIAL-FANS============================================SPECIAL-FANS--------------------------------------------------------------SPECIAL-FANS */
+@media screen and (max-width: 575px) {
+  .special-fans{
+    width: 90% !important;
+    margin: 20px auto !important;
+
+  }
+  .special-sales-img{
+    width: 40% !important;
+  }
+}
+/* SPECIAL-FANS============================================SPECIAL-FANS--------------------------------------------------------------SPECIAL-FANS */
+/* FOOTER-SECTION=========================================FOOTER-SECTION=========================================FOOTER-SECTION====================== */
+footer{
+  margin-top: 100px;
+}
+.footer-copyright a{
+  font-family: 'Quicksand', sans-serif; 
+  font-weight: 500;
+}
+.social-icons i:hover{
+  opacity: 0.7 !important;
+}
+.footer-copyright a:hover{
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1.5px;
+}
+.footer-company a, .footer-products a{
+  font-family: 'Quicksand', sans-serif; 
+  font-weight: 500;
+}
+.footer-company a:hover , .footer-products a:hover{
+  text-decoration: underline;
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 3px;
+}
+@media screen and (max-width: 767px) {
+  .footer-ruler{
+    margin: 0px auto !important;
+}
+}
+/* FOOTER-SECTION=========================================FOOTER-SECTION=========================================FOOTER-SECTION====================== */

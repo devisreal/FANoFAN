@@ -1,0 +1,230 @@
+/* =============================NAVBAR ====================== NAVBAR =============================NAVBAR================================*/
+
+    .navbar {
+      background-color: transparent;
+    }
+    .scrolling-navbar {
+      transition: background .5s ease-in-out, padding .5s ease-in-out;
+    }
+    .top-nav-collapse {
+      /* background-color: #444; */
+      background-color: #667490;
+    }
+    
+    @media only screen and (max-width: 768px) {
+      .navbar {
+        background-color: #667490;
+      }
+    }
+    .navbar-brand{
+      font-family: 'Baumans', cursive;
+      font-size: 25px !important;
+    }
+    .navbar-brand span{
+      color: black;
+    }
+
+/* =============================NAVBAR ====================== NAVBAR =============================NAVBAR================================*/
+/* font-family: 'Baumans', cursive;
+font-family: 'Quicksand', sans-serif; */
+/* =============================GENERAL-STYLING ====================== GENERAL-STYLING =============================GENERAL-STYLING================================*/
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Baumans', cursive;
+  
+}
+p{
+  font-family: 'Quicksand', sans-serif;
+  color: black !important;
+  font-weight: 600;
+}
+
+.nav-link{
+  color: white !important;
+  text-transform: uppercase;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  border-radius: 10px !important;
+  font-size: 15px;
+}
+.categories-link{
+  /* color: black !important; */
+  text-decoration: underline !important ;
+  text-decoration-color: black !important;
+  text-underline-offset: 5px;
+  text-decoration-thickness: 2px !important;
+  
+}
+
+.dropdown-item{
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold !important;
+  color: white !important;
+}
+.dropdown-item:hover{
+  color: black !important;
+}
+@media screen and (max-width: 991px) {
+  .nav-item{
+    width: 40% !important;
+  }
+}
+@media screen and (max-width: 575px) {
+  .nav-item{
+    margin: 5px auto !important;
+    width: 85% !important;
+  }
+  .navbar-collapse{
+    margin-top: 20px;
+  }
+}
+html,body, * {
+  scroll-behavior: smooth !important;
+}
+/* =============================GENERAL-STYLING ====================== GENERAL-STYLING =============================GENERAL-STYLING================================*/
+header{
+  background-image: url(../img/background-image/fan1.jpg);
+  /* filter: brightness(0.8); */
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+header h1{
+  color: white !important;
+}
+header p, p a{
+  color: white !important;
+  transition: ease .2s;
+}
+header p a:hover{
+  text-decoration: underline;
+  transition: ease .2s;
+  text-underline-offset: 3px;
+}
+
+/* CEILING-FANS-PAGE=========================CEILING-FANS-PAGE============================CEILING-FANS-PAGE================CEILING-FANS-PAGE */
+.ceiling-new-in,.standing-new-in,.table-new-in,.exhaust-new-in{
+  margin-top: 150px;
+}
+.ceiling-new-in  h1,.standing-new-in  h1,.table-new-in  h1, .exhaust-new-in h1{
+  padding: 50px 0px;
+  
+}
+@media screen and (max-width: 575px) {
+  .ceiling-new-in-img{
+    margin-top: 30px !important;
+  }
+}
+.ceiling-first-fan, .table-first-fan,.standing-first-fan,.exhaust-first-fan{
+  margin-top: 150px;
+}
+ .ceiling-second-fan,.table-second-fan,.standing-second-fan,.exhaust-second-fan{
+   margin-top: 100px;
+ }
+ .ceiling-third-fan,.table-third-fan,.standing-third-fan,.exhaust-third-fan{
+   margin-top: 150px;
+ }
+.ceiling-first-fan h2, .ceiling-second-fan h2, .ceiling-third-fan h2{
+  padding: 50px 0px;
+}
+.table-first-fan h2, .table-second-fan h2, .table-third-fan h2{
+  padding: 50px 0px;
+}
+.standing-first-fan h2, .standing-second-fan h2, .standing-third-fan h2{
+  padding: 50px 0px;
+}
+.exhaust-first-fan h2, .exhaust-second-fan h2, .exhaust-third-fan h2{
+  padding: 50px 0px;
+}
+.carousel-indicators{
+  background-color: rgba(128, 128, 128,0.2) !important;
+  height: 10%;
+  border-radius: 10px;
+  width: fit-content;
+  margin: 0px auto !important;
+  padding: 0px 20px !important;
+}
+.carousel-indicators li{
+  opacity: 1;
+  border-radius: 5px !important;
+
+}
+.ceiling-cutting-edge-qualties i{
+  color: #667490;
+}
+.ceiling-fan-applications{
+  margin-top: 150px;
+}
+.ceiling-fan-applications h1{
+  padding: 50px 0px;
+}
+.ceiling-fan-applications .card-header{
+  text-align: center ;
+}
+@media screen and (max-width:575px) {
+  .ceiling-fan-applications .outdoors{
+    margin: 50px 0;
+  }
+}
+.view-in-gallery{
+  margin-top: 150px;
+  background-color: #222;
+  padding: 150px 0px;
+  background-image: url(/static/img/ceiling-fans/view-in-gallery-image.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+.view-in-gallery p{
+  text-align: center !important;
+  color: white !important;
+}
+.gallery-btn{
+  margin: 0px auto;
+  width: fit-content;
+}
+.gallery-btn button{
+  border: none;
+  background-color: #667490;
+  color: white !important;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  margin-top: 30px;
+  padding: 10px 30px;
+  transition: ease .3s;
+}
+.gallery-btn button:hover{
+  background-color: #111;
+  transition: ease .3s;
+}
+/* CEILING-FANS-PAGE=========================CEILING-FANS-PAGE============================CEILING-FANS-PAGE================CEILING-FANS-PAGE */
+
+/* FOOTER-SECTION=========================================FOOTER-SECTION=========================================FOOTER-SECTION====================== */
+footer{
+  margin-top: 100px;
+}
+.footer-copyright a{
+  font-family: 'Quicksand', sans-serif; 
+  font-weight: 500;
+}
+.footer-copyright a:hover{
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1.5px;
+}
+.footer-company a, .footer-products a{
+  font-family: 'Quicksand', sans-serif; 
+  font-weight: 500;
+}
+.social-icons i:hover{
+  opacity: 0.7 !important;
+}
+.footer-company a:hover , .footer-products a:hover{
+  text-decoration: underline;
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 3px;
+}
+@media screen and (max-width: 767px) {
+  .footer-ruler{
+    margin: 0px auto !important;
+}
+}
+/* FOOTER-SECTION=========================================FOOTER-SECTION=========================================FOOTER-SECTION====================== */

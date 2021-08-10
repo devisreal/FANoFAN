@@ -1,0 +1,275 @@
+/* =============================NAVBAR ====================== NAVBAR =============================NAVBAR================================*/
+
+    .navbar {
+      background-color: transparent;
+    }
+    .scrolling-navbar {
+      transition: background .5s ease-in-out, padding .5s ease-in-out;
+    }
+    .top-nav-collapse {
+      /* background-color: #444; */
+      background-color: #667490;
+    }
+    
+    @media only screen and (max-width: 768px) {
+      .navbar {
+        background-color: #667490;
+      }
+    }
+    .navbar-brand{
+      font-family: 'Baumans', cursive;
+      font-size: 25px !important;
+    }
+    .navbar-brand span{
+      color: black;
+    }
+
+/* =============================NAVBAR ====================== NAVBAR =============================NAVBAR================================*/
+/* font-family: 'Baumans', cursive;
+font-family: 'Quicksand', sans-serif; */
+/* =============================GENERAL-STYLING ====================== GENERAL-STYLING =============================GENERAL-STYLING================================*/
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Baumans', cursive;
+  
+}
+p{
+  font-family: 'Quicksand', sans-serif;
+  color: black !important;
+  
+}
+
+.nav-link{
+  color: white !important;
+  text-transform: uppercase;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  border-radius: 10px !important;
+  font-size: 15px;
+}
+.contact-link{
+  color: black !important;
+  /* border: 2px solid black; */
+}
+.dropdown-item{
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold !important;
+  color: white !important;
+}
+.dropdown-item:hover{
+  color: black !important;
+}
+@media screen and (max-width: 991px) {
+  .nav-item{
+    width: 40% !important;
+  }
+}
+@media screen and (max-width: 575px) {
+  .nav-item{
+    margin: 5px auto !important;
+    width: 85% !important;
+  }
+  .navbar-collapse{
+    margin-top: 20px;
+  }
+}
+html,body, * {
+  scroll-behavior: smooth !important;
+}
+/* =============================GENERAL-STYLING ====================== GENERAL-STYLING =============================GENERAL-STYLING================================*/
+header{
+  background-image: url(../img/background-image/fan1.jpg);
+  /* filter: brightness(0.8); */
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+header h1{
+  color: white !important;
+}
+header p, p a{
+  color: white !important;
+  transition: ease .2s;
+}
+header p a:hover{
+  text-decoration: underline;
+  transition: ease .2s;
+  text-underline-offset: 3px;
+}
+.addresses-section{
+  margin-top: 100px;
+}
+.icon-holder{
+  width: 50px;
+  height: 50px;
+  background-color: #667490;
+  border-radius: 50%;
+  margin: 0px auto !important;
+}
+.icon-holder i{
+  position: absolute;
+  color: white;
+  width: fit-content;
+  margin: 5.5% 5.5%;
+  font-size: 20px;
+}
+@media screen and (max-width: 991px) {
+  .icon-holder i{
+    margin: 5% 5%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .icon-holder i{
+    margin: 3% 3.5%;
+  }
+}
+@media screen and (max-width: 575px) {
+  .addresses{
+    margin: 30px 0px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .icon-holder i{
+    margin: 6% 5%;
+  }
+  .icon-holder .location{
+    margin: 6% 6.5%;
+  }
+}
+.addresses p b{
+  font-weight: 600;
+}
+.addresses p{
+  font-weight: 400;
+}
+/* FEEDBACK-FORM==================================FEEDBACK-FORM===============================FEEDBACK-FORM====== */
+.feedback-form{
+  margin-top: 150px;
+}
+label{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  color: black ;
+  font-size: 14px !important;
+}
+
+.active-purple-2 input.form-control[type=text]:focus:not([readonly]) {
+  border-bottom: 1px solid #667490 !important;
+  box-shadow: 0 1px 0 0 #667490 !important;
+}
+.active-purple-2 input.form-control[type=email]:focus:not([readonly]) {
+  border-bottom: 1px solid #667490 !important;
+  box-shadow: 0 1px 0 0 #667490 !important;
+}
+.amber-textarea textarea.md-textarea:focus:not([readonly]) {
+  border-bottom: 1px solid #667490 !important;
+  box-shadow: 0 1px 0 0 #667490 !important;
+}
+.active-amber-textarea.md-form label.active {
+  color: #667490 !important;
+}
+
+
+.active-amber-textarea.md-form textarea.md-textarea:focus:not([readonly])+label {
+  color: #667490 !important;
+}
+form button{
+  border: none;
+  padding: 10px 15px;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  background-color: #667490;
+  font-size: 15px;
+}
+form input, textarea{
+  font-family: 'Quicksand', sans-serif !important; 
+  font-weight: 600 !important;
+}
+form button:hover{
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgba(0, 0, 0, 0.23) 0px 1px 6px !important;
+}
+.form-image{
+  background-image: url(/static/img/background-image/contact-page-form-img.jpg);
+  padding: 230px 0px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+@media screen and (max-width: 575px) {
+  .form-section{
+    padding: 0px 20px;
+  }
+  .form-image{
+    background-size: cover;
+    
+    margin-top: 30px;
+  }
+}
+.query a{
+  font-family: 'Quicksand', sans-serif !important; 
+  font-weight: 600 !important;
+  font-size: 14px;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  color: red;
+}
+/* FEEDBACK-FORM==================================FEEDBACK-FORM===============================FEEDBACK-FORM====== */
+/* CONTACT-MAP====================================CONTACT-MAP===================================CONTACT-MAP=== */
+.contact-map{
+  margin-top: 200px !important;
+  width: 90%;
+  margin: 0px auto;
+}
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+@media screen and (max-width:575px) {
+  .contact-map{
+  width: 100%;
+  margin: 0px auto;
+}
+}
+@media screen and (max-width:767px) {
+  .contact-map{
+  width: 100%;
+  margin: 0px auto;
+}
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:75%;
+    width:100%;
+    position:absolute;
+}
+/* CONTACT-MAP====================================CONTACT-MAP===================================CONTACT-MAP=== */
+/* FOOTER-SECTION===============================FOOTER-SECTION======================FOOTER-SECTION========*/
+
+.footer-copyright a{
+  font-family: 'Quicksand', sans-serif; 
+  font-weight: 500;
+}
+.footer-copyright a:hover{
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1.5px;
+}
+.social-icons i:hover{
+  opacity: 0.7 !important;
+}
+.footer-company a, .footer-products a{
+  font-family: 'Quicksand', sans-serif; 
+  font-weight: 500;
+}
+.footer-company a:hover , .footer-products a:hover{
+  text-decoration: underline;
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 3px;
+}
+@media screen and (max-width: 767px) {
+  .footer-ruler{
+    margin: 0px auto !important;
+}
+}
+/* FOOTER-SECTION=============================FOOTER-SECTION===============================FOOTER-SECTION========*/
