@@ -1,5 +1,7 @@
 /* =============================NAVBAR ====================== NAVBAR =============================NAVBAR================================*/
-
+  body{
+    overflow-x: hidden;
+  }
     .navbar {
       background-color: transparent;
     }
@@ -298,8 +300,7 @@ header p a:hover{
 }
 
 .team-boxed .item {
-  text-align:center;
-  
+  text-align:center;  
 }
 
 .team-boxed .item .box {
