@@ -43,20 +43,20 @@ sr.reveal('.intro-card-2, .contact-us-2, .industries-standing-fan, .contact-butt
   scale: 0.85,
   opacity: 0
 });
-// sr.reveal('.cooling-tech-img, .special-sale-text,  .ceiling-industries-card-1, .intro-card-1, .contact-us-1, .years, .qualities-icon .fas, .fan-specifications', {
-//   distance: '200px',
-//   duration: 1200,
-//   origin: 'left',
-//   scale: 0.85,
-//   opacity: 0
-// });
-// sr.reveal('.cooling-tech-text, .special-sale-img, .social-icons,  .ceiling-industries-card-2, .intro-card-3, .contact-us-3', {
-//   distance: '200px',
-//   duration: 1200,
-//   origin: 'right',
-//   scale: 0.85,
-//   opacity: 0
-// });
+sr.reveal('.cooling-tech-img, .special-sale-text,  .ceiling-industries-card-1, .intro-card-1, .contact-us-1, .years, .qualities-icon .fas, .fan-specifications', {
+  // distance: '200px',
+  duration: 1200,
+  origin: 'left',
+  scale: 0.85,
+  opacity: 0
+});
+sr.reveal('.cooling-tech-text, .special-sale-img, .social-icons,  .ceiling-industries-card-2, .intro-card-3, .contact-us-3', {
+  // distance: '200px',
+  duration: 1200,
+  origin: 'right',
+  scale: 0.85,
+  opacity: 0
+});
 sr.reveal('.team-header', {
   distance: '200px',
   duration: 1200,
