@@ -1,3 +1,6 @@
+body{
+  overflow-x: hidden;
+}
 h1,h2,h3,h4,h5,h6{
   font-family: 'Baumans', cursive;
   
@@ -34,6 +37,7 @@ form label{
   font-weight: 500;
   line-height: 16.8px;
 }
+
 .active input:focus:not([readonly]) {
   border: 1px solid #667490;
   box-shadow: 0 0 0 1px #667490;
