@@ -148,8 +148,7 @@ html,body, * {
     /* CARD======================CARD======================CARD=========================================CARD */
     .card-header{
       font-family: 'Quicksand', sans-serif;
-      font-weight: 600;
-    
+      font-weight: 600;    
     }
     .card-title{
       font-weight: lighter;

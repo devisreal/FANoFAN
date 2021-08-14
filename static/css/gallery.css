@@ -103,6 +103,7 @@ header p a:hover{
   font-weight: 500;
   background-color: red;
   color: white;
+ 
 }
 #special-offer-btn:hover i{
   transform: rotate(360deg);
