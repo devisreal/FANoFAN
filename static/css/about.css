@@ -126,7 +126,7 @@ header p a:hover{
 @media screen and (max-width: 575px) {
   .about-page-intro{
     width: 85% !important;
-    margin: 0px auto !important;
+    margin: 70px auto !important;
   }
   .about-page-intro .text{
     margin-top: 35px;
