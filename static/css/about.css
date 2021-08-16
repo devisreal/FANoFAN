@@ -271,10 +271,10 @@ header p a:hover{
 /*EXECTIVE-TEAM=====================================EXECTIVE-TEAM=============================EXECTIVE-TEAM==  */
 .team-boxed {
   color:#313437;
-  background-color:#fafafa;
+  background-color:#F6F5F5;
   margin-top: 100px;
 }
-.team-boxed h2 {
+.team-boxed h2, .customers-review h2 {
   font-weight:bold;
   margin-bottom:40px;
   padding-top:40px;
@@ -288,7 +288,13 @@ header p a:hover{
     font-size:24px;
   }
 }
-
+@media screen and (max-width: 575px){
+  .team-boxed .item .box{
+    width: 85% ;
+    margin: 0px auto;
+  }
+  
+}
 .team-boxed .intro {
   font-size:16px;
   max-width:500px;
@@ -307,10 +313,11 @@ header p a:hover{
   text-align:center;
   padding:30px;
   background-color:#fff;
-  margin-bottom:30px;
-  border: 2px solid #667490;
-  border-radius: 5px;
+  margin-bottom:30px;  
+  border-radius: 7px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
+
 .team-boxed .item .name {
   font-weight:bold;
   margin-top:28px;
@@ -326,8 +333,7 @@ header p a:hover{
 }
 
 .team-boxed .item img {
-  max-width:160px;
-  /* border: #667490 3px solid ; */
+  max-width:120px;
 }
 
 .team-boxed .social {
@@ -347,7 +353,54 @@ header p a:hover{
 }
 /* R-TEAM=====================================EXECTIVE-TEAM=============================EXECTIVE-TEAM== */
 
+/* CUSTOMER'S REVIEW===========================CUSTOMER'S REVIEW==========================CUSTOMER'S REVIEW */
+.customers-review{
+  background-color:#F6F5F5;
+  margin-top: 70px !important;
+}
+.customers-review .review{
+  background-color: #fff;
+}
+.customers-review .review p{
+  font-family: 'Quicksand', sans-serif; 
+  font-weight: 500;
+  
+}
+.customer img{
+  max-width: 70px;
+  border-radius: 50%;
+  display: inline-block;
+}
+.image{
+  width: 30px !important;
+  margin: 0px auto !important;
 
+}
+.customer .customer-name{
+  
+  font-weight: 500;
+  font-size: 14px;
+  padding-top: 10%  ;
+}
+@media screen and (max-width:767px) {
+  .customer .customer-name{
+    padding-top: 3%  ;
+  }
+}
+.customer .location{
+  padding: 0px !important;
+  color: #999999 !important;
+  font-family: 'Poppins', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+}
+@media screen and (max-width: 575px) {
+  .single-review{
+    width: 80% !important;
+    margin: 20px auto;
+  }
+}
+/* CUSTOMER'S REVIEW===========================CUSTOMER'S REVIEW==========================CUSTOMER'S REVIEW */
 
 /* FOOTER-SECTION===============================FOOTER-SECTION======================FOOTER-SECTION========*/
 footer{

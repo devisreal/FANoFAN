@@ -37,7 +37,7 @@ window.sr = ScrollReveal({ reset: true, easing: 'cubic-bezier(0.5, 0, 0, 1)',int
 
 // HOME-PAGE-SCROLL-REVEAL=========================================HOME-PAGE-SCROLL-REVEAL
 sr.reveal('.intro-card-2, .contact-us-2, .industries-standing-fan, .contact-button, .gallery-btn, .icon-holder .fas ', {
-  distance: '200px',
+  distance: '180px',
   duration: 1200,
   origin: 'bottom',
   scale: 0.85,
@@ -58,7 +58,7 @@ sr.reveal('.cooling-tech-text, .special-sale-img, .social-icons,  .ceiling-indus
   opacity: 0
 });
 sr.reveal('.team-header', {
-  distance: '200px',
+  distance: '180px',
   duration: 1200,
   origin: 'top',
   scale: 0.85,
