@@ -1,0 +1,134 @@
+/* =============================NAVBAR ====================== NAVBAR =============================NAVBAR================================*/
+  body{
+    overflow-x: hidden;
+  }
+    .navbar {
+      background-color: #667490;
+    }
+    /* .scrolling-navbar {
+      transition: background .5s ease-in-out, padding .5s ease-in-out;
+    } */
+    .top-nav-collapse {
+      /* background-color: #444; */
+      background-color: #667490;
+    }
+    
+    @media only screen and (max-width: 768px) {
+      .navbar {
+        background-color: #667490;
+      }
+    }
+    .navbar-brand{
+      font-family: 'Baumans', cursive;
+      font-size: 25px !important;
+    }
+    .navbar-brand span{
+      color: black;
+    }
+
+/* =============================NAVBAR ====================== NAVBAR =============================NAVBAR================================*/
+/* font-family: 'Baumans', cursive;
+font-family: 'Quicksand', sans-serif; */
+/* =============================GENERAL-STYLING ====================== GENERAL-STYLING =============================GENERAL-STYLING================================*/
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Baumans', cursive;
+  
+}
+p{
+  font-family: 'Quicksand', sans-serif;
+  color: black !important;
+  font-weight: 600;
+}
+
+.nav-link{
+  color: white !important;
+  text-transform: uppercase;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  border-radius: 10px !important;
+  font-size: 15px;
+}
+
+.dropdown-item{
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold !important;
+  color: white !important;
+}
+.dropdown-item:hover{
+  color: black !important;
+}
+@media screen and (max-width: 991px) {
+  .nav-item{
+    width: 40% !important;
+  }
+}
+@media screen and (max-width: 575px) {
+  .nav-item{
+    margin: 5px auto !important;
+    width: 85% !important;
+  }
+  .navbar-collapse{
+    margin-top: 20px;
+  }
+}
+html,body, * {
+  scroll-behavior: smooth !important;
+}
+/* =============================GENERAL-STYLING ====================== GENERAL-STYLING =============================GENERAL-STYLING================================*/
+
+/* SITEMAP==========================SITEMAP======================================SITEMAP */
+.sitemap{
+            margin-top: 150px;
+}
+.sitemap dt{
+            font-family: 'Quicksand', sans-serif; 
+            font-size: 17px;
+}
+dd {
+            margin-bottom: 5px !important;
+            margin-top: 5px !important;
+            margin-left: 1rem !important;
+            font-family: 'Poppins', sans-serif;
+            font-size: 14px;
+            font-weight: 450;
+            
+}
+dd ul{
+            list-style: circle ;
+}
+dd a{
+            color: black;
+}
+/* SITEMAP==========================SITEMAP======================================SITEMAP */
+
+/* FOOTER-SECTION===============================FOOTER-SECTION======================FOOTER-SECTION========*/
+footer{
+  margin-top: 120px;
+}
+.footer-copyright a{
+  font-family: 'Quicksand', sans-serif; 
+  font-weight: 500;
+}
+.footer-copyright a:hover{
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1.5px;
+}
+.social-icons i:hover{
+  opacity: 0.7 !important;
+}
+.footer-company a, .footer-products a{
+  font-family: 'Quicksand', sans-serif; 
+  font-weight: 500;
+}
+.footer-company a:hover , .footer-products a:hover{
+  text-decoration: underline;
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 3px;
+}
+@media screen and (max-width: 767px) {
+  .footer-ruler{
+    margin: 0px auto !important;
+}
+}
+/* FOOTER-SECTION=============================FOOTER-SECTION===============================FOOTER-SECTION========*/
