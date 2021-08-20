@@ -37,32 +37,26 @@ window.sr = ScrollReveal({ reset: true, easing: 'cubic-bezier(0.5, 0, 0, 1)',int
 
 // HOME-PAGE-SCROLL-REVEAL=========================================HOME-PAGE-SCROLL-REVEAL
 sr.reveal('.intro-card-2, .contact-us-2, .industries-standing-fan, .contact-button, .gallery-btn, .icon-holder .fas ', {
-  distance: '180px',
+  distance: '100px',
   duration: 1200,
   origin: 'bottom',
-  scale: 0.85,
-  opacity: 0
+  scale: 0.85
 });
 sr.reveal('.cooling-tech-img, .special-sale-text,  .ceiling-industries-card-1, .intro-card-1, .contact-us-1, .years, .qualities-icon .fas, .fan-specifications', {
-  // distance: '200px',
   duration: 1200,
   origin: 'left',
-  scale: 0.85,
-  opacity: 0
+  scale: 0.85
 });
 sr.reveal('.cooling-tech-text, .special-sale-img, .social-icons,  .ceiling-industries-card-2, .intro-card-3, .contact-us-3', {
-  // distance: '200px',
   duration: 1200,
   origin: 'right',
-  scale: 0.85,
-  opacity: 0
+  scale: 0.85
 });
 sr.reveal('.team-header', {
-  distance: '180px',
+  distance: '100px',
   duration: 1200,
   origin: 'top',
-  scale: 0.85,
-  opacity: 0
+  scale: 0.85
 });
 
 // HOME-PAGE-SCROLL-REVEAL=========================================HOME-PAGE-SCROLL-REVEAL
