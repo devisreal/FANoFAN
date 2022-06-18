@@ -33,7 +33,7 @@ $(function() {
 const d = new Date();
 document.getElementById("currentyear").innerHTML = d.getFullYear();
 
-window.sr = ScrollReveal({ reset: true, easing: 'cubic-bezier(0.5, 0, 0, 1)',interval: 16 });
+window.sr = ScrollReveal({ easing: 'cubic-bezier(0.5, 0, 0, 1)',interval: 16 });
 
 // HOME-PAGE-SCROLL-REVEAL=========================================HOME-PAGE-SCROLL-REVEAL
 sr.reveal('.intro-card-2, .contact-us-2, .industries-standing-fan, .contact-button, .gallery-btn, .icon-holder .fas ', {
